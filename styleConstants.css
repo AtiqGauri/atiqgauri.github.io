@@ -1,0 +1,151 @@
+/* ROOT CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GillSans';
+    src: url('assets/fonts/GillSans.ttf');
+}
+@font-face {
+    font-family: 'GillSans-Bold';
+    src: url('assets/fonts/GillSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'GillSans-Light';
+    src: url('assets/fonts/GillSans-Light.ttf');
+}
+@font-face {
+    font-family: 'GillSans-SemiBold';
+    src: url('assets/fonts/GillSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'GillSans-UltraBold';
+    src: url('assets/fonts/GillSans-UltraBold.ttf');
+}
+
+body{
+    font-family: 'GillSans';
+    background-color: var(--mainTheme);
+}
+
+:root {
+    /*RAW COLORS*/
+    --tangaroa:  #04143A;
+    --riverBed: #424858;
+    --waikawaGray: #5B6A9A;
+    --haveLockBlue: #4A90E2;
+    --linkWater: #DAE8F8;
+    --regentGray: #81899C;
+    --ravenGray: #787f8f;
+    --midGray: #575A63;
+    --dustyGray: #979797;
+    --white: #FEFEFE;
+    --galleryWhite: #f0f0f0;
+    --lightGray: #cbcbcb;
+
+
+    /*COMPONENT COLOR VARIABLES*/
+    --mainTheme: var(--white);
+    --firstHeadingsColor: var(--tangaroa);
+    --secondHeadingsColor: var(--waikawaGray);
+    --introDescriptionColor: var(--riverBed);
+    --largeButtonBackgroundColor: var(--linkWater);
+    --largeButtonColor: var(--haveLockBlue);
+    --descriptionColor: var(--ravenGray);
+    --detailsGrayColor: var(--regentGray);
+    --timelineLinkColor: var(--lightGray);
+    --contactColor: var(--regentGray);
+
+    /* margins and paddings and borders */
+    --mainThemeSidePadding: 50px;
+    --midSidePadding: 25px;
+    --smallSidePadding: 15px;
+    --ultraSmallSidePadding: 13px;
+    --largeSidePadding: 35px;
+    --largeButtonPadding: 10px 20px 10px 20px;
+    --smallButtonPadding: 4px 10px 4px 10px;
+
+    --closeChildTopMargin: 10px;
+    --midChildTopMargin: 25px;
+    --farChildTopMargin: 40px;
+    --introTopMargin: 80px;
+
+    --largeBorderRadius: 10px;
+    --smallBorderRadius: 6px;
+
+
+    /* SHADOWS AND GRADIENTS */
+    --largestBoxShadow: 0px 54px 183px 0px rgba(73, 85, 136, 0.2);
+
+
+    /* TEXT SIZE VARIABLES */
+    --myNameText: 75px;
+    --secondHeadingText: 28px;
+    --thirdHeadingText: 24px;
+    --fourthHeadingText: 20px;
+    --fifthHeadingText: 15px;
+    --projectBoxWidth: 90%;
+    --projectHeadText: 24px;
+
+    --largeLetterSpacing: 1px;
+    --smallLetterSpacing: 0.5px;
+    --largeWordSpacing: 1.5px;
+    --smallWordSpacing: 1px;
+    --lineHeightSpacing: 20px;
+    --freelanceTopMargin: 45px;
+
+    --linkIconSize: 13px;
+    --timelinePointSize: 12px;
+
+
+    /* POSITIONS */
+    --freelanceTimelinePoint: 9px;
+    --timelinePointAfterPos: -8.5px;
+    --timelinePointBeforePos: -17.5px;
+}
+
+
+@media(max-width:500px) {
+    body{
+
+        /* margins and paddings */
+        --mainThemeSidePadding: 25px;
+        --smallSidePadding: 10px;
+        --ultraSmallSidePadding: 8px;
+        --midSidePadding: 15px;
+        --largeSidePadding: 20px;
+        --largeButtonPadding: 5px 10px 5px 10px;
+        --smallButtonPadding: 1px 7px 1px 7px;
+
+        --closeChildTopMargin: 3px;
+        --midChildTopMargin: 10px;
+        --farChildTopMargin: 12px;
+        --introTopMargin: 40px;
+
+        --largeBorderRadius: 6px;
+
+        /* TEXT SIZE VARIABLES */    
+        --myNameText: 47px;
+        --secondHeadingText: 14px;
+        --thirdHeadingText: 12px;
+        --fourthHeadingText: 10px;
+        --fifthHeadingText: 9px;
+        --projectBoxWidth: 85%;
+        --projectHeadText: 15px;
+
+        --lineSpacing: 16px;
+        --freelanceTopMargin: 0px;
+
+        --linkIconSize: 9px;
+        --timelinePointSize: 8px;
+
+
+        /* POSITIONS */
+        --freelanceTimelinePoint: 6px;
+        --timelinePointAfterPos: -6.5px;
+        --timelinePointBeforePos: -14.5px;
+    }
+}
