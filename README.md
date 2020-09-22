@@ -5,4 +5,4 @@
 </br>
 
 ## Licence
-MIT
+[MIT](https://github.com/AtiqGauri/atiqgauri.github.io/blob/master/LICENSE)
