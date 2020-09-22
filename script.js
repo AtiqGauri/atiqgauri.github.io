@@ -1,3 +1,16 @@
+/**
+ * function to toggle dark theme
+ */
+function toggle_dark_theme() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+
+/**
+ * function to launch a url in new tab
+ * @param {string} url to be opened
+ */
 function launch_url(url) {
     var win = window.open(url, '_blank');
     win.focus();
