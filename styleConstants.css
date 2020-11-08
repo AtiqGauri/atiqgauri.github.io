@@ -116,7 +116,7 @@ body{
     --smallLetterSpacing: 0.5px;
     --largeWordSpacing: 1.95px;
     --smallWordSpacing: 1px;
-    --lineHeightSpacing: 24px;
+    --lineHeightSpacing: 32px;
     --freelanceTopMargin: 45px;
 
     --linkIconSize: 13px;
@@ -145,7 +145,7 @@ body{
         --smallButtonPadding: 1px 7px 1px 7px;
 
         --closeChildTopMargin: 3px;
-        --midChildTopMargin: 10px;
+        --midChildTopMargin: 25px;
         --farChildTopMargin: 12px;
         --introTopMargin: 40px;
 

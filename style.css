@@ -49,7 +49,7 @@
 .intro-description{
     margin-top: var(--farChildTopMargin);
     font-family: 'GillSans-Light';
-    font-weight: 600;
+    font-weight: bold;
     font-size: calc(var(--thirdHeadingText) * 0.9);
     color: var(--introDescriptionColor);
     word-spacing: var(--largeWordSpacing);
@@ -172,7 +172,7 @@
 }
 .experience-description{
     font-family: 'GillSans-Light';
-    font-weight: bolder;
+    font-weight: bold;
     color: var(--descriptionColor);
     font-size: calc(var(--fourthHeadingText) * 0.9);
     letter-spacing: var(--largeLetterSpacing);
@@ -273,7 +273,7 @@
 }
 .project-description{
     font-family: 'GillSans-Light';
-    font-weight: bolder;
+    font-weight: bold;
     color: var(--descriptionColor);
     font-size: calc(var(--fourthHeadingText) * 0.92);
     letter-spacing: var(--largeLetterSpacing);
