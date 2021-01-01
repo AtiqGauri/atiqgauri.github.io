@@ -111,7 +111,7 @@
     width: 1px; 
     /* CHANGE THIS COLOR WHEN EXP IS >1 */
     /*--timelineLinkColor*/
-	background-color: var(--mainTheme); 
+	background-color: var(--timelineLinkColor); 
 	top:0; 
 	bottom: 0; 
 	left: var(--smallSidePadding); 
@@ -138,16 +138,17 @@
 	border-radius: 50%; 
 	z-index: 1; 
 }
+
 .experience::before{
     content: '';
 	left: var(--timelinePointBeforePos);
 	position: absolute; 
-	width: calc(var(--timelinePointSize) * 2 + 6);
-	height: calc(var(--timelinePointSize) * 2 + 6);  
+	width: 30px;
+	height: 30px;  
 	background-color: var(--mainTheme); 
 	top: calc(var(--freelanceTimelinePoint) - 9px);
 	border-radius: 50%;
-	z-index: 1;
+    z-index: 1;
 }
 
 .experience-head{
@@ -416,6 +417,16 @@
     cursor: pointer;
 }
 .medium-icon{
+    width: calc(var(--linkIconSize) * 1.5);
+    height: calc(var(--linkIconSize) * 1.5);
+    filter: var(--socialIconFilter);
+}
+
+.linkedIn{
+    user-select: none;
+    cursor: pointer;
+}
+.linkedIn-icon{
     width: calc(var(--linkIconSize) * 1.5);
     height: calc(var(--linkIconSize) * 1.5);
     filter: var(--socialIconFilter);
