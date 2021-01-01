@@ -55,6 +55,7 @@ body{
     --rosePink: #ff0059;
     --buff-yellow: #F2D184;
     --goldYellow: #FDD000;
+    --chargedBlue: #1f11ff;
 
 
     /*COMPONENT COLOR VARIABLES*/
@@ -177,8 +178,11 @@ body{
         --freelanceTimelinePoint: 6px;
         --timelinePointAfterPos: -6.5px;
         --timelinePointBeforePos: -14.5px;
-        --themeButtonTopPos: 10px;
+        --themeButtonTopPos: 15px;
         --themeButtonRightPos: 15px;
+
+        
+        /* COLOR WHICH NEEDS TO BE CHANGED ON MOBILE VIEW */
     }
 }
 
@@ -186,17 +190,17 @@ body{
 .dark-mode{
     /*COMPONENT COLOR VARIABLES*/
     --mainTheme: black;
-    --firstHeadingsColor: var(--electricViolet);
+    --firstHeadingsColor: var(--chargedBlue);
     --secondHeadingsColor: var(--galleryWhite);
     --introDescriptionColor: var(--nobelGray);
-    --largeButtonBackgroundColor: var(--electricViolet);
+    --largeButtonBackgroundColor: var(--chargedBlue);
     --largeButtonColor: var(--galleryWhite);
     --descriptionColor: var(--nobelGray);
     --detailsGrayColor: var(--nobelGray);
     --timelineLinkColor: var(--midGray);
     --contactColor: var(--galleryWhite);
     --projectLinkBackgroundColor: var(--blackGray);
-    --timelineBulletColor: var(--electricViolet);
+    --timelineBulletColor: var(--chargedBlue);
     --themeButtonColor: var(--blackGray);
 
     --linkIconFilter: invert(99%) sepia(0%) saturate(55%) hue-rotate(171deg) brightness(87%) contrast(82%);

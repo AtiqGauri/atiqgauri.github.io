@@ -438,8 +438,8 @@
 
 .themeButton{
 	position: absolute;
-	width: calc(var(--timelinePointSize) * 3);
-	height: calc(var(--timelinePointSize) * 3);
+	width: calc(var(--timelinePointSize) * 4);
+	height: calc(var(--timelinePointSize) * 4);
 	top: var(--themeButtonTopPos);
 	right: var(--themeButtonRightPos);
 	background-color: var(--themeButtonColor);
@@ -455,6 +455,7 @@
     cursor: pointer;
     user-select: none;
     transition: 0.2s;
+    z-index: 5;
 }
 .themeButton:hover{
     transform: scale(1.2);
@@ -462,9 +463,11 @@
 
 .theme-icon{
     position: relative;
-    top: 8%;
+    top: 14%;
     left: 1.3%;
-    height: calc(var(--timelinePointSize) * 2.5);
-    width: calc(var(--timelinePointSize) * 2.5);
+    height: calc(var(--timelinePointSize) * 2.8);
+    width: calc(var(--timelinePointSize) * 2.8);
     filter: var(--themeIconFilter);
+    pointer-events: none;
+    z-index: 6;
 }
