@@ -1,3 +1,11 @@
+let darkModeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if(darkModeEnabled){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+
 /**
  * function to toggle dark theme
  */
