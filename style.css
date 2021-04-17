@@ -18,6 +18,9 @@
     5%{
         box-shadow: var(--largestBoxShadowSTART);
     }
+    50%{
+        box-shadow: var(--largestBoxShadowMID);
+    }
     100% {
         box-shadow: var(--largestBoxShadow);
     }
@@ -38,7 +41,7 @@
     /*
     animation: 2s ease 0s 1 introFadeIn;
     */
-    animation: 3s ease 0s 1 introFadeIn;
+    animation: 2s ease 0s 1 introFadeIn;
     box-shadow: var(--largestBoxShadow);
 }
 

@@ -99,9 +99,9 @@ body{
 
 
     /* SHADOWS AND GRADIENTS */
-    --largestBoxShadow: 0px 54px 183px 0px rgba(73, 85, 136, 0.2);
     --largestBoxShadowSTART: 0px 5px 8px 0px rgba(73, 85, 136, 0.2);
-
+    --largestBoxShadowMID: 0px 15px 50px 0px rgba(73, 85, 136, 0.2);
+    --largestBoxShadow: 0px 54px 183px 0px rgba(73, 85, 136, 0.2);
 
     /* TEXT SIZE VARIABLES */
     --mainContainerSideSize: 85%;
