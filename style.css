@@ -73,7 +73,7 @@
     color: var(--secondHeadingsColor);
     letter-spacing: var(--smallLetterSpacing);
     user-select: none;
-    animation: 2s ease 0s 1 professionIn;
+    animation: 1.9s ease 0s 1 professionIn;
 }
 
 .intro-description{
