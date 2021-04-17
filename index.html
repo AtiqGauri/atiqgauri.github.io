@@ -8,38 +8,7 @@
     <link rel="icon" href="assets/icons/tab_icon.ico" tpe="x-icon" sizes="32x32">
 </head>
 <body>
-    <script>
-        let darkModeEnabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var storedTheme = localStorage.getItem("globalTheme");
-
-        if(!storedTheme){
-            var element = document.body;
-            var containDarkMode =  element.classList.contains("dark-mode");
-
-            if(darkModeEnabled){
-                if(!containDarkMode){
-                    element.classList.add("dark-mode");
-                }
-            }else{
-                if(containDarkMode){
-                    element.classList.remove("dark-mode");
-                }
-            }
-        }else{
-            var element = document.body;
-            var containDarkMode =  element.classList.contains("dark-mode");
-            
-            if(storedTheme == 'dark-mode'){
-                if(!containDarkMode){
-                    element.classList.add("dark-mode");
-                }
-            }else{
-                if(containDarkMode){
-                    element.classList.remove("dark-mode");
-                }
-            }
-        }
-    </script>
+    <script src="./preload.js" ></script>
     <div class="themeButton" onclick="toggle_dark_theme()">
         <img src="./assets/icons/theme_icon.svg" class="theme-icon" draggable="false">
     </div>
