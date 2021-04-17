@@ -15,6 +15,9 @@
     0% {
         box-shadow: none;
     }
+    5%{
+        box-shadow: var(--largestBoxShadowSTART);
+    }
     100% {
         box-shadow: var(--largestBoxShadow);
     }
@@ -32,13 +35,16 @@
     letter-spacing: var(--largeLetterSpacing);
     word-spacing: var(--smallWordSpacing);
     border-radius: 15px;
+    /*
     animation: 2s ease 0s 1 introFadeIn;
+    */
+    animation: 3s ease 0s 1 introFadeIn;
     box-shadow: var(--largestBoxShadow);
 }
 
 @keyframes myNameIn {
     0% {
-        transform: translateY(-60%);
+        transform: translateY(-20%);
         opacity: 0;
     }
     100% {
@@ -49,7 +55,7 @@
 .my-name{
     font-size: var(--myNameText);
     color: var(--firstHeadingsColor);
-    animation: 1.5s ease 0s 1 myNameIn;
+    animation: 2s ease 0s 1 myNameIn;
 }
 .first-name{
     font-family: 'GillSans-SemiBold';
@@ -58,7 +64,7 @@
     font-family: 'GillSans-Light';
 }
 
-@keyframes professionIn {
+@keyframes initialFadeIn {
     0% {
         opacity: 0;
     }
@@ -73,7 +79,7 @@
     color: var(--secondHeadingsColor);
     letter-spacing: var(--smallLetterSpacing);
     user-select: none;
-    animation: 2s ease 0s 1 professionIn;
+    animation: 3s ease 0s 1 initialFadeIn;
 }
 
 .intro-description{
@@ -86,7 +92,7 @@
     line-height: var(--lineHeightSpacing);
     letter-spacing: var(--largeLetterSpacing);
     user-select: none;
-    animation: 2s ease 0s 1 professionIn;
+    animation: 3s ease 0s 1 initialFadeIn;
 }
 
 .download-cv{
@@ -102,6 +108,7 @@
     cursor: pointer;
     user-select: none;
     transition: 0.3s;
+    animation: 3s ease 0s 1 initialFadeIn;
 }
 .download-cv:hover{
     filter: contrast(105%);
