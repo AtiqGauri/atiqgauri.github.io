@@ -1,0 +1,224 @@
+/* ROOT CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GillSans';
+    src: url('assets/fonts/GillSans.ttf');
+}
+@font-face {
+    font-family: 'GillSans-Bold';
+    src: url('assets/fonts/GillSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'GillSans-Light';
+    src: url('assets/fonts/GillSans-Light.ttf');
+}
+@font-face {
+    font-family: 'GillSans-SemiBold';
+    src: url('assets/fonts/GillSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'GillSans-UltraBold';
+    src: url('assets/fonts/GillSans-UltraBold.ttf');
+}
+
+body{
+    font-family: 'GillSans';
+    background-color: var(--mainTheme);
+}
+
+:root {
+    /*RAW COLORS*/
+    --blackGray: #232125;
+    --tangaroa:  #04143A;
+    --codGray: #121212;
+    --riverBed: #424858;
+    --waikawaGray: #5B6A9A;
+    --haveLockBlue: #4A90E2;
+    --chetwodeBlue: #7A90E2;
+    --electricViolet: #5F00E5;
+    --linkWater: #DAE8F8;
+    --manateeGray: #868ea3;
+    --regentGray: #81899C;
+    --ravenGray: #787f8f;
+    --rollingStoneGray: #7e7f81;
+    --midGray: #575A63; 
+    --dustyGray: #979797;
+    --nobelGray: #b3b3b3;
+    --white: #FEFEFE;
+    --galleryWhite: #f0f0f0;
+    --lightGray: #cbcbcb;
+    --rosePink: #ff0059;
+    --buff-yellow: #F2D184;
+    --goldYellow: #FDD000;
+    --chargedBlue: #1f11ff;
+
+
+    /*COMPONENT COLOR VARIABLES*/
+    --mainTheme: var(--white);
+    --firstHeadingsColor: var(--tangaroa);
+    --secondHeadingsColor: var(--waikawaGray);
+    --introDescriptionColor: var(--manateeGray);
+    --largeButtonBackgroundColor: var(--linkWater);
+    --largeButtonColor: var(--haveLockBlue);
+    --descriptionColor: var(--ravenGray);
+    --detailsGrayColor: var(--regentGray);
+    --timelineLinkColor: var(--lightGray);
+    --contactColor: var(--regentGray);
+    --projectLinkBackgroundColor: var(--galleryWhite);
+    --timelineBulletColor: var(--chetwodeBlue);
+    --themeButtonColor: var(--lightGray);
+
+    --linkIconFilter: invert(54%) sepia(8%) saturate(719%) hue-rotate(184deg) brightness(90%) contrast(85%);
+    --courseIconFilter: invert(54%) sepia(8%) saturate(719%) hue-rotate(184deg) brightness(90%) contrast(85%);
+    --socialIconFilter: invert(54%) sepia(8%) saturate(719%) hue-rotate(184deg) brightness(90%) contrast(85%);
+    --linkIconHoverFilter: invert(51%) sepia(87%) saturate(1651%) hue-rotate(190deg) brightness(94%) contrast(87%);
+    --courseIconHoverFilter: invert(51%) sepia(87%) saturate(1651%) hue-rotate(190deg) brightness(94%) contrast(87%);
+    --themeIconFilter: none;
+
+    /* margins and paddings and borders */
+    --mainThemeSidePadding: 50px;
+    --midSidePadding: 25px;
+    --smallSidePadding: 15px;
+    --ultraSmallSidePadding: 13px;
+    --largeSidePadding: 35px;
+    --largeButtonPadding: 10px 20px 10px 20px;
+    --smallButtonPadding: 0px 10px 0px 10px;
+    --ultraSmallButtonPadding: 0px 7px 0px 7px;
+
+    --veryCloseChildTopMargin: 8px;
+    --closeChildTopMargin: 10px;
+    --midChildTopMargin: 25px;
+    --farChildTopMargin: 40px;
+    --introTopMargin: 80px;
+
+    --largeBorderRadius: 10px;
+    --smallBorderRadius: 6px;
+
+
+    /* SHADOWS AND GRADIENTS */
+    --largestBoxShadowSTART: 0px 5px 8px 0px rgba(73, 85, 136, 0.2);
+    --largestBoxShadowMID: 0px 15px 50px 0px rgba(73, 85, 136, 0.2);
+    --largestBoxShadow: 0px 54px 183px 0px rgba(73, 85, 136, 0.2);
+
+    /* TEXT SIZE VARIABLES */
+    --mainContainerSideSize: 85%;
+    --myNameText: 75px;
+    --secondHeadingText: 28px;
+    --thirdHeadingText: 24px;
+    --fourthHeadingText: 20px;
+    --fifthHeadingText: 15px;
+    --projectBoxWidth: 90%;
+    --projectHeadText: 24px;
+    --projectLinkText: 15px;
+    --experienceSkillsText: 14px;
+
+    --largeLetterSpacing: 2px;
+    --smallLetterSpacing: 0.5px;
+    --largeWordSpacing: 1.95px;
+    --smallWordSpacing: 1px;
+    --lineHeightSpacing: 32px;
+    --freelanceTopMargin: 45px;
+
+    --linkIconSize: 13px;
+    --timelinePointSize: 12px;
+
+
+    /* POSITIONS */
+    --freelanceTimelinePoint: 9px;
+    --timelinePointAfterPos: -8.5px;
+    --timelinePointBeforePos: -17.5px;
+    --themeButtonTopPos: 25px;
+    --themeButtonRightPos: 30px;
+}
+
+
+@media(max-width:500px) {
+    body{
+
+        /* margins and paddings */
+        --mainThemeSidePadding: 25px;
+        --smallSidePadding: 10px;
+        --ultraSmallSidePadding: 8px;
+        --midSidePadding: 15px;
+        --largeSidePadding: 20px;
+        --largeButtonPadding: 5px 10px 5px 10px;
+        --smallButtonPadding: 1px 7px 1px 7px;
+        --ultraSmallButtonPadding: 1px 5px 1px 5px;
+
+        --veryCloseChildTopMargin: 7px;
+        --closeChildTopMargin: 3px;
+        --midChildTopMargin: 25px;
+        --farChildTopMargin: 12px;
+        --introTopMargin: 40px;
+
+        --largeBorderRadius: 6px;
+
+        /* TEXT SIZE VARIABLES */    
+        --mainContainerSideSize: 90%;
+        --myNameText: 55px;
+        --secondHeadingText: 18px;
+        --thirdHeadingText: 16px;
+        --fourthHeadingText: 14px;
+        --fifthHeadingText: 14px;
+        --projectBoxWidth: 85%;
+        --projectHeadText: 15px;
+        --projectLinkText: 11px;
+        --experienceSkillsText: 8px;
+
+        --largeLetterSpacing: 1.6px;
+        --smallLetterSpacing: 0.5px;
+        --largeWordSpacing: 1.25px;
+        --smallWordSpacing: 1px;
+        --lineHeightSpacing: 20px;
+        --freelanceTopMargin: 0px;
+
+        --linkIconSize: 9px;
+        --timelinePointSize: 8px;
+
+
+        /* POSITIONS */
+        --freelanceTimelinePoint: 6px;
+        --timelinePointAfterPos: -6.5px;
+        --timelinePointBeforePos: -14.5px;
+        --themeButtonTopPos: 15px;
+        --themeButtonRightPos: 15px;
+
+        
+        /* COLOR WHICH NEEDS TO BE CHANGED ON MOBILE VIEW */
+    }
+}
+
+
+.dark-mode{
+    /*COMPONENT COLOR VARIABLES*/
+    --mainTheme: black;
+    --firstHeadingsColor: var(--chargedBlue);
+    --secondHeadingsColor: var(--galleryWhite);
+    --introDescriptionColor: var(--nobelGray);
+    --largeButtonBackgroundColor: var(--chargedBlue);
+    --largeButtonColor: var(--galleryWhite);
+    --descriptionColor: var(--nobelGray);
+    --detailsGrayColor: var(--nobelGray);
+    --timelineLinkColor: var(--midGray);
+    --contactColor: var(--galleryWhite);
+    --projectLinkBackgroundColor: var(--blackGray);
+    --timelineBulletColor: var(--chargedBlue);
+    --themeButtonColor: var(--blackGray);
+
+    --linkIconFilter: invert(99%) sepia(0%) saturate(55%) hue-rotate(171deg) brightness(87%) contrast(82%);
+    --courseIconFilter: invert(100%) sepia(1%) saturate(2030%) hue-rotate(181deg) brightness(112%) contrast(88%);
+    --socialIconFilter: invert(100%) sepia(1%) saturate(2030%) hue-rotate(181deg) brightness(112%) contrast(88%);
+    --linkIconHoverFilter: invert(100%) sepia(1%) saturate(2030%) hue-rotate(181deg) brightness(112%) contrast(88%);
+    --courseIconHoverFilter: invert(100%) sepia(1%) saturate(2030%) hue-rotate(181deg) brightness(112%) contrast(88%);
+    --themeIconFilter: invert(64%) sepia(0%) saturate(151%) hue-rotate(162deg) brightness(96%) contrast(78%);
+
+    /* SHADOWS AND GRADIENTS */
+    --largestBoxShadow: 0px 54px 183px 0px #0f0f0f;
+    --largestBoxShadowSTART: 0px 5px 8px 0px #0f0f0f;
+
+}

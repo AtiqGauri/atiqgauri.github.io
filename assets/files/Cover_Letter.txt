@@ -1,0 +1,11 @@
+Hello, I am atiq a full stack developer working on blockchain at Powerloom Protocol. I write backend open source code for distributed systems, build frontend UI for web3 products, day-to-day work looks like tinkering with smart contracts and other defi tech, then managing distributed or event based system related to core software engineering. Exciting days include experimental and newborn child tasks.. Datadog, Sentry, segment, mixpanel, mocha, chai, GitHub actions, git, docker, spinnaker, documentation, and coffee are a few tools currently I am addicted to...
+And yes I do work on the weekend on a side project called mutesync... it is successfully running a Kickstarter project that raised 56K USD. It is hardware to control the audio of virtual meetings growing in more ways too. I am single-handedly responsible for completing windows development for mutesync. The work mainly involves C++ with electron.js, I know which is a cool combination and I have a completely open-source project on this idea: https://www.notion.so/Patternscape-46cee07f3f6443628655cc1f48ca1e07
+
+
+Here is a link to Kickstarter ;) https://www.indiegogo.com/projects/mutesync-a-physical-mute-button-for-video-calls#/)
+
+
+MY WEBSITE: https://atiqgauri.github.io
+
+Thanks for your time
+- Atiq Gauri
